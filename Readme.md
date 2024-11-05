@@ -27,8 +27,8 @@ The Employee Management System is designed to streamline and simplify the manage
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
-   cd employee-management-system
+   git clone https://github.com/natashagargn/Employee-Management-System-Advanced.git
+   cd Employee-Management-System-Advanced
 
 2.Install dependencies:
 
