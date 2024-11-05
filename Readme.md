@@ -24,13 +24,14 @@ The Employee Management System is designed to streamline and simplify the manage
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (MongoDB Atlas for cloud storage)
 
-## Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/natashagargn/Employee-Management-System-Advanced.git
-   cd Employee-Management-System-Advanced
+Installation
+Clone the repository:
 
-2.Install dependencies:
+bash
+Copy code
+git clone https://github.com/natashagargn/Employee-Management-System-Advanced.git
+cd Employee-Management-System-Advanced
+Install dependencies:
 
 bash
 Copy code
