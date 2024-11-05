@@ -24,38 +24,47 @@ The Employee Management System is designed to streamline and simplify the manage
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (MongoDB Atlas for cloud storage)
 
-Installation
-Clone the repository:
+## Setup Instructions
 
-bash
-Copy code
-git clone https://github.com/natashagargn/Employee-Management-System-Advanced.git
-cd Employee-Management-System-Advanced
-Install dependencies:
+To get a local copy of the project up and running, follow these steps:
 
-bash
-Copy code
-npm install
-Set up environment variables:
+### Prerequisites
 
-Create a .env file in the root directory.
-Add the following variables:
-plaintext
-Copy code
-MONGODB_URI=your-mongodb-uri
-SECRET_KEY=your-secret-key
-Run the application:
+1. Make sure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) installed on your machine.
+2. Install MongoDB locally or use MongoDB Atlas (cloud database service).
 
-bash
-Copy code
-node app.js
-Access the frontend:
+### Installation
 
-Copy the path of index.html (found in your project directory) and open it in a web browser to view the application interface.
-Usage
-Register a new user account and log in.
-Use the navigation to access different sections:
-Employee Details: View and edit individual employee records.
-Salary Management: Manage and update employee salary information.
-Attendance: Record and view employee attendance.
-Leaves Management: Update and track leave records.
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/natashagargn/Employee-Management-System-Advanced.git
+   
+2. Navigate to the project directory:
+
+    ```bash
+    cd Employee-Management-System-Advanced
+
+3. Install the required dependencies:
+    ```bash
+    npm install
+
+4. Update the MongoDB connection string in App.js:
+    ```bash
+    const dbconnect = 'your_mongodb_connection_string';
+
+5. Start the application:
+    ```bash
+    node App.js
+
+6. To view the application, open index.html by pasting the file path directly into our browser. It should look something like this:
+file:///your_path_to_project/Employee-Management-System-Advanced/index.html
+
+## Usage
+
+1. Register a new user account and log in.
+2. Use the navigation to access different sections:
+- **Employee Details**: View and edit individual employee records.
+- **Salary Management**: Manage and update employee salary information.
+- **Attendance**: Record and view employee attendance.
+- **Leaves Management**: Update and track leave records.
